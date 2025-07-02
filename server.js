@@ -16,6 +16,7 @@ admin.initializeApp({
 // Get Firestore reference
 const db = admin.firestore();
 
+//this is a route for testing the connection
 const userRoutes = require("./routes/userRoute");
 app.use("/api", userRoutes);
 
